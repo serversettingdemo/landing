@@ -24,13 +24,13 @@ button.innerHTML = '<button class="btn btn-outline-warning rounded-pill w-100 my
 
 let colRef = document.createElement('div');
 colRef.className = 'col-sm-11 col-md-8 col-lg-9';
-colRef.innerHTML = '<a href="https://13.213.113.183/mobile/register" rel="nofollow noreferrer" target="_blank"><button type="login" class="button w-100 text-black fs-5 mt-2">Daftar &amp; Menangkan Slot Online Jackpot Terbesar</button></a>';
+colRef.innerHTML = '<a href="https://13.213.113.183/mobile/register" rel="nofollow noreferrer" target="_blank"><button type="login" class="button w-100 text-black fs-5 my-3">Daftar &amp; Menangkan Slot Online Jackpot Terbesar</button></a>';
 
 let rowbank = document.createElement('div');
 rowbank.className = 'row justify-content-center text-center mb-4';
-let colBom = document.createElement('div');
-colBom.className = 'col-md-8 col-lg-9';
-colBom.innerHTML = '<img src="asset/img/bom.png" alt="Logo" width="150px" class="img-fluid m-2">';
+// let colBom = document.createElement('div');
+// colBom.className = 'col-md-8 col-lg-9';
+// colBom.innerHTML = '<img src="asset/img/bom.png" alt="Logo" width="150px" class="img-fluid m-2">';
 
 let colBank = document.createElement('div');
 colBank.className = 'col-sm-11 col-md-7 col-lg-8';
@@ -41,7 +41,7 @@ borderBank.innerHTML = ' <img src="asset/img/bank.webp" alt="Bank Lokal" class="
 container.append(row, rowbank);
 row.append(button, colRef);
 
-rowbank.append(colBom, colBank);
+rowbank.append(colBank);
 colBank.append(borderBank);
 
 // ==================================================
